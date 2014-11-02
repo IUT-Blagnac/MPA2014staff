@@ -1,0 +1,4 @@
+script:
+  - python -V
+  - phantom -v
+  - echo Hello from DUT INFO Blagnac

@@ -25,7 +25,7 @@ NOTE: Plus que 8 slides
 
 == Troisième transparent
 
-[source,java]
+.HelloMonde.java
 ----
 include::../src/HelloMonde.java[]
 ----

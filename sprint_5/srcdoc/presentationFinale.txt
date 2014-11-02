@@ -18,7 +18,17 @@ NOTE: On compte en moyenne 3mn par transparent
 
 == Second transparent
 
+image:./images/diag0.png[]
+
 NOTE: Plus que 8 slides
+
+
+== Troisième transparent
+
+[source,java]
+----
+include::../src/HelloMonde.java[]
+----
 
 == Perspectives
 

@@ -23,4 +23,4 @@ script:
   - javac -cp .:./bin:../junit.jar -d ./bin ./src/HelloMondeTest.java
   - java -jar ../plantuml.jar -Tpng -o srcdoc/images srcdoc/diag0.puml
   - python ../asciidoc-8.6.7/asciidoc.py -a data-uri -o srcdoc/presentationFinale.html srcdoc/presentationFinale.txt
-  - cat srcdoc/presentationFinale.html
+  - ls -alF srcdoc

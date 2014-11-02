@@ -22,5 +22,5 @@ NOTE: Plus que 8 slides
 
 == Perspectives
 
-image:html/src/images/sieste.png[]
+image:./images/sieste.png[]
 

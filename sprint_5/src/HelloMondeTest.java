@@ -30,19 +30,30 @@ public class HelloMondeTest extends TestCase {
       assertEquals("Affiche : "+expected,expected,ecranProgrammeATester.readLine());
       assertTrue("Seconde ligne'",ecranProgrammeATester.readLine() instanceof String);
       assertTrue("Troisième ligne'",ecranProgrammeATester.readLine()instanceof String);
+      assertTrue("Quatrième ligne'",ecranProgrammeATester.readLine()instanceof String);
   }
   
   public void test_ligne2() throws IOException {
-      assertTrue("Seconde ligne'",ecranProgrammeATester.readLine() instanceof String);
+      assertTrue("Première ligne'",ecranProgrammeATester.readLine() instanceof String);
       String expected = "Hello Monde !";
       assertEquals("Affiche : "+expected,expected,ecranProgrammeATester.readLine());
       assertTrue("Troisième ligne'",ecranProgrammeATester.readLine()instanceof String);
+      assertTrue("Quatrième ligne'",ecranProgrammeATester.readLine()instanceof String);
   }
   
   public void test_ligne3() throws IOException {
+      assertTrue("Première ligne'",ecranProgrammeATester.readLine() instanceof String);
+      assertTrue("Seconde ligne'",ecranProgrammeATester.readLine() instanceof String);
+      String expected = "depuis Blagnac.";
+      assertEquals("Affiche : "+expected,expected,ecranProgrammeATester.readLine());
+      assertTrue("Quatrième ligne'",ecranProgrammeATester.readLine()instanceof String);
+  }
+  
+  public void test_ligne4() throws IOException {
+      assertTrue("Première ligne'",ecranProgrammeATester.readLine() instanceof String);
       assertTrue("Seconde ligne'",ecranProgrammeATester.readLine() instanceof String);
       assertTrue("Troisième ligne'",ecranProgrammeATester.readLine()instanceof String);
-      String expected = "depuis Blagnac.";
+      String expected = "éèçàù";
       assertEquals("Affiche : "+expected,expected,ecranProgrammeATester.readLine());
   }
   
